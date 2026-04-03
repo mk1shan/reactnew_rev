@@ -5,9 +5,7 @@ function List() {
 
   return (
     <div>
-      {/* <p>{items[0]}</p>
-      <p>{items[1]}</p>
-      <p>{items[2]}</p> */}
+   
       {items.map((item)=>(
         <p>{item}</p>
       ))}
